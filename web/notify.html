@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<script type="text/javascript" src="soundcloud.player.api.js"></script>
+<title>Waiting for notifications</title>
+</head>
+
+<body>
+<h1></h1>
+
+<div pub-key="" sub-key="SUBSCRIBE-KEY" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
+<script src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
+<script src="notify.js"></script>
+
+<object height="81" width="100%" id="myPlayer" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+  <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstellanotewebaudio%2Fsports-whistle-royalty-free&enable_api=true&object_id=myPlayer"></param>
+  <param name="allowscriptaccess" value="always"></param>
+  <embed allowscriptaccess="always" height="81"
+  src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fsoundcloud.com%2Fstellanotewebaudio%2Fsports-whistle-royalty-free&enable_api=true&object_id=myPlayer"
+  type="application/x-shockwave-flash" width="100%"
+  name="myPlayer"></embed>
+
+
+</object>
+</body> </html>
